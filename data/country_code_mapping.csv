@@ -1,158 +1,160 @@
-Country,country_code,continent
-Albania,ALB,Europe
-Antigua And Barbuda,ATG,Americas
-Argentina,ARG,Americas
-Armenia,ARM,Asia
-Aruba,ABW,Americas
-Australia,AUS,Oceania
-Austria,AUT,Europe
-Bahamas,BHS,Americas
-Bahrain,BHR,Asia
-Barbados,BRB,Americas
-Belarus,BLR,Europe
-Belgium,BEL,Europe
-Belize,BLZ,Americas
-Bermuda,BMU,Americas
-Bolivia,BOL,Americas
-"Bonaire, Sint Eustatius And Saba",,
-Brazil,BRA,Americas
-Bulgaria,BGR,Europe
-Burkina Faso,BFA,Africa
-Cabo Verde,CPV,Africa
-Cambodia,KHM,Asia
-Cayman Islands,CYM,Americas
-Central African ,,
-Chile,CHL,Americas
-China,CHN,Asia
+Country,continent,country_code
+Albania,Europe,ALB
+Antigua and Barbuda,Americas,ATG
+Argentina,Americas,ARG
+Armenia,Asia,ARM
+Aruba,Americas,ABW
+Australia,Oceania,AUS
+Austria,Europe,AUT
+Bahamas,Americas,BHS
+Bahrain,Asia,BHR
+Barbados,Americas,BRB
+Belarus,Europe,BLR
+Belgium,Europe,BEL
+Belize,Americas,BLZ
+Bermuda,Americas,BMU
+Bolivia,Americas,BOL
+"Bonaire, Sint Eustatius and Saba",,
+Brazil,Americas,BRA
+Bulgaria,Europe,BGR
+Burkina Faso,Africa,BFA
+Cabo Verde,Africa,CPV
+Cambodia,Asia,KHM
+Cayman Islands,Americas,CYM
+Central African Republic,Africa,CAF
+Chile,Americas,CHL
+China,Asia,CHN
 Christmas Island,,
 Cocos,,
-Colombia,COL,Americas
-"Congo, Democratic   ",,
-Costa Rica,CRI,Americas
-Cote D'Ivoire,CIV,Africa
-Cuba,CUB,Americas
-Cyprus,CYP,Asia
-Czechia,CZE,Europe
+Colombia,Americas,COL
+"Congo, Democratic Republic of the",Africa,COD
+Costa Rica,Americas,CRI
+Cuba,Americas,CUB
+Cyprus,Asia,CYP
+Czechia,Europe,CZE
 Czechoslovakia,,
-Denmark,DNK,Europe
-Djibouti,DJI,Africa
-Dominica,DMA,Americas
-Dominican ,,
-Ecuador,ECU,Americas
-Egypt,EGY,Africa
-Estonia,EST,Europe
-Eswatini,SWZ,Africa
-Fiji,FJI,Oceania
-Finland,FIN,Europe
-Former Union  Soviet Socialist Republics,,
-France,FRA,Europe
-French Polynesia,PYF,Oceania
+Côte d'Ivoire,Africa,CIV
+Denmark,Europe,DNK
+Djibouti,Africa,DJI
+Dominica,Americas,DMA
+Dominican Republic,Americas,DOM
+East Germany,Europe,DEU
+Ecuador,Americas,ECU
+Egypt,Africa,EGY
+Estonia,Europe,EST
+Eswatini,Africa,SWZ
+Fiji,Oceania,FJI
+Finland,Europe,FIN
+Former Union of Soviet Socialist Republics,,
+France,Europe,FRA
+French Polynesia,Oceania,PYF
 French Southern Antarctic Territories,,
 French Southern Territories,,
-Gabon,GAB,Africa
-Gambia,GMB,Africa
-Georgia,GEO,Asia
-Germany,DEU,Europe
-Ghana,GHA,Africa
-Greece,GRC,Europe
-Greenland,GRL,Americas
+Gabon,Africa,GAB
+Gambia,Africa,GMB
+Georgia,Asia,GEO
+Germany,Europe,DEU
+Ghana,Africa,GHA
+Greece,Europe,GRC
+Greenland,Americas,GRL
 Guadeloupe,,
-Guam,GUM,Oceania
-Guatemala,GTM,Americas
-Guinea,GIN,Africa
-Guinea-Bissau,GNB,Africa
-Haiti,HTI,Americas
-Heard Island And Mcdonald Islands,,
-Honduras,HND,Americas
-Hong Kong,HKG,Asia
-Hungary,HUN,Europe
-Iceland,ISL,Europe
-India,IND,Asia
-Indonesia,IDN,Asia
-Iran,IRN,Asia
-Ireland,IRL,Europe
-Israel,ISR,Asia
-Italy,ITA,Europe
-Jamaica,JAM,Americas
-Japan,JPN,Asia
-Jordan,JOR,Asia
-Kazakhstan,KAZ,Asia
-Kenya,KEN,Africa
-Kiribati,KIR,Oceania
-"Korea, North",PRK,Asia
-"Korea, South",KOR,Asia
-Kuwait,KWT,Asia
-Kyrgyzstan,KGZ,Asia
-Laos,LAO,Asia
-Lebanon,LBN,Asia
-Lesotho,LSO,Africa
-Luxembourg,LUX,Europe
-Macao,MAC,Asia
-Malawi,MWI,Africa
-Malaysia,MYS,Asia
-Maldives,MDV,Asia
-Malta,MLT,Europe
+Guam,Oceania,GUM
+Guatemala,Americas,GTM
+Guinea,Africa,GIN
+Guinea-Bissau,Africa,GNB
+Haiti,Americas,HTI
+Heard Island and McDonald Islands,,
+Honduras,Americas,HND
+Hong Kong,Asia,HKG
+Hungary,Europe,HUN
+Iceland,Europe,ISL
+India,Asia,IND
+Indonesia,Asia,IDN
+Iran,Asia,IRN
+Ireland,Europe,IRL
+Israel,Asia,ISR
+Italy,Europe,ITA
+Jamaica,Americas,JAM
+Japan,Asia,JPN
+Jordan,Asia,JOR
+Kazakhstan,Asia,KAZ
+Kenya,Africa,KEN
+Kiribati,Oceania,KIR
+"Korea, North",Asia,PRK
+"Korea, South",Asia,KOR
+Kuwait,Asia,KWT
+Kyrgyzstan,Asia,KGZ
+Laos,Asia,LAO
+Lebanon,Asia,LBN
+Lesotho,Africa,LSO
+Luxembourg,Europe,LUX
+Macao,Asia,MAC
+Malawi,Africa,MWI
+Malaysia,Asia,MYS
+Maldives,Asia,MDV
+Malta,Europe,MLT
 Martinique,,
-Mauritius,MUS,Africa
-Mexico,MEX,Americas
-"Moldova,  ",MDA,Europe
-Mongolia,MNG,Asia
-Morocco,MAR,Africa
-Myanmar,MMR,Asia
-Namibia,NAM,Africa
-Nauru,NRU,Oceania
-Nepal,NPL,Asia
-Netherlands,NLD,Europe
-Netherlands Antilles,NLD,Europe
-New Zealand,NZL,Oceania
-Niger,NER,Africa
+Mauritius,Africa,MUS
+Mexico,Americas,MEX
+"Moldova, Republic of",Europe,MDA
+Mongolia,Asia,MNG
+Morocco,Africa,MAR
+Myanmar,Asia,MMR
+Namibia,Africa,NAM
+Nauru,Oceania,NRU
+Nepal,Asia,NPL
+Netherlands,Europe,NLD
+Netherlands Antilles,Europe,NLD
+New Zealand,Oceania,NZL
+Niger,Africa,NER
 Norfolk Island,,
-Norway,NOR,Europe
-Oman,OMN,Asia
-Pakistan,PAK,Asia
-Panama,PAN,Americas
-Peru,PER,Americas
-Philippines,PHL,Asia
-Poland,POL,Europe
-Portugal,PRT,Europe
-Qatar,QAT,Asia
-Romania,ROU,Europe
-Russian Federation,RUS,Europe
-"Saint Helena, Ascension And Tristan Da Cunha",,
-Saint Pierre And Miquelon,,
-Saudi Arabia,SAU,Asia
-Senegal,SEN,Africa
-Serbia,SRB,Europe
-Seychelles,SYC,Africa
-Sierra Leone,SLE,Africa
-Singapore,SGP,Asia
-Slovakia,SVK,Europe
-Slovenia,SVN,Europe
-"South Africa,  ",ZAF,Africa
-South Sudan,SSD,Africa
-Spain,ESP,Europe
-Sri Lanka,LKA,Asia
-Sweden,SWE,Europe
-Switzerland,CHE,Europe
-Syria,SYR,Asia
-Taiwan,TWN,Asia
-Tajikistan,TJK,Asia
-"Tanzania, United  ",TZA,Africa
-Thailand,THA,Asia
-Timor-Leste,TLS,Asia
+Norway,Europe,NOR
+Oman,Asia,OMN
+Pakistan,Asia,PAK
+Panama,Americas,PAN
+Peru,Americas,PER
+Philippines,Asia,PHL
+Poland,Europe,POL
+Portugal,Europe,PRT
+Qatar,Asia,QAT
+Romania,Europe,ROU
+Russian Federation,Europe,RUS
+"Saint Helena, Ascension and Tristan da Cunha",,
+Saint Pierre and Miquelon,,
+Saudi Arabia,Asia,SAU
+Senegal,Africa,SEN
+Serbia,Europe,SRB
+Seychelles,Africa,SYC
+Sierra Leone,Africa,SLE
+Singapore,Asia,SGP
+Slovakia,Europe,SVK
+Slovenia,Europe,SVN
+"South Africa, Republic of",Africa,ZAF
+South Sudan,Africa,SSD
+Spain,Europe,ESP
+Sri Lanka,Asia,LKA
+Sweden,Europe,SWE
+Switzerland,Europe,CHE
+Syria,Asia,SYR
+Taiwan,Asia,TWN
+Tajikistan,Asia,TJK
+"Tanzania, United Republic of",Africa,TZA
+Thailand,Asia,THA
+Timor-Leste,Asia,TLS
 Tokelau,,
-Trinidad And Tobago,TTO,Americas
-Tunisia,TUN,Africa
-Turkiye,TUR,Asia
-Turks And Caicos Islands,TCA,Americas
-Ukraine,UKR,Europe
-Union  Soviet Socialist Republics,,
-United Arab Emirates,ARE,Asia
-United Kingdom,GBR,Europe
-United States,USA,Americas
-United States Minor Outlying Islands,USA,Americas
-Uruguay,URY,Americas
-Uzbekistan,UZB,Asia
-Venezuela,VEN,Americas
-Viet Nam,VNM,Asia
+Trinidad and Tobago,Americas,TTO
+Tunisia,Africa,TUN
+Turks and Caicos Islands,Americas,TCA
+Türkiye,Asia,TUR
+Ukraine,Europe,UKR
+Union of Soviet Socialist Republics,,
+United Arab Emirates,Asia,ARE
+United Kingdom,Europe,GBR
+United States,Americas,USA
+United States Minor Outlying Islands,Americas,USA
+Uruguay,Americas,URY
+Uzbekistan,Asia,UZB
+Venezuela,Americas,VEN
+Viet Nam,Asia,VNM
+West Germany,Europe,DEU
 Yugoslavia,,
