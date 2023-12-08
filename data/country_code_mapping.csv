@@ -25,27 +25,27 @@ Central African Republic,Africa,CAF
 Chile,Americas,CHL
 China,Asia,CHN
 Christmas Island,,
-Cocos,,
+Cocos ,,
 Colombia,Americas,COL
 "Congo, Democratic Republic of the",Africa,COD
 Costa Rica,Americas,CRI
 Cuba,Americas,CUB
 Cyprus,Asia,CYP
 Czechia,Europe,CZE
-Czechoslovakia,,
+Czechoslovakia ,,
 Côte d'Ivoire,Africa,CIV
 Denmark,Europe,DNK
 Djibouti,Africa,DJI
 Dominica,Americas,DMA
 Dominican Republic,Americas,DOM
-East Germany,Europe,DEU
+East Germany ,Europe,DEU
 Ecuador,Americas,ECU
 Egypt,Africa,EGY
 Estonia,Europe,EST
 Eswatini,Africa,SWZ
 Fiji,Oceania,FJI
 Finland,Europe,FIN
-Former Union of Soviet Socialist Republics,,
+Former Union of Soviet Socialist Republics ,,
 France,Europe,FRA
 French Polynesia,Oceania,PYF
 French Southern Antarctic Territories,,
@@ -104,7 +104,7 @@ Namibia,Africa,NAM
 Nauru,Oceania,NRU
 Nepal,Asia,NPL
 Netherlands,Europe,NLD
-Netherlands Antilles,Europe,NLD
+Netherlands Antilles ,Europe,NLD
 New Zealand,Oceania,NZL
 Niger,Africa,NER
 Norfolk Island,,
@@ -147,7 +147,7 @@ Tunisia,Africa,TUN
 Turks and Caicos Islands,Americas,TCA
 Türkiye,Asia,TUR
 Ukraine,Europe,UKR
-Union of Soviet Socialist Republics,,
+Union of Soviet Socialist Republics ,,
 United Arab Emirates,Asia,ARE
 United Kingdom,Europe,GBR
 United States,Americas,USA
@@ -157,4 +157,4 @@ Uzbekistan,Asia,UZB
 Venezuela,Americas,VEN
 Viet Nam,Asia,VNM
 West Germany,Europe,DEU
-Yugoslavia,,
+Yugoslavia ,,
