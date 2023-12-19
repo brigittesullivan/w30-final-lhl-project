@@ -20,6 +20,7 @@ Can country GDP predict value of lobster exports?
 
 ## Assumptions:
 * Dollar will be adjusted to today's (2022) dollars
+* TODO Only included export data for Homarus Americanus species of lobster(excludes Norway lobster and rock lobster)
 
 ## Process
 
