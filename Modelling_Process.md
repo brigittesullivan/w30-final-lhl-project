@@ -167,7 +167,7 @@ The purpose of this document is to log all details of each model run during the 
 ## predict again but with values NOT adjusted for inflation.
 
    ```py
-   {'description': 'Predictions using best params and cv on us data not adjusted for inflation or log',
+   {'description': 'Predictions using best params and cv on us data not adjusted for inflation AND not log',
  'train_data_source': 'us data: unindexed no log',
  'train_start_year': 1988,
  'train_end_year': 2017,
@@ -199,3 +199,116 @@ The purpose of this document is to log all details of each model run during the 
    ```
 
    Results higher than previous test when values are adjusted to todays dollar. 
+
+
+  ## Homarus Americanus Experiment
+  All tests prior to used any commoditities mentioning "Lobster". Experiment with filtering data set to only commodities for Homarus Americanus. This is the 'typical' east coast lobster most people are familiar with. 
+
+### Baseline Prophet
+Non log, non-indexed values, HA vals for USA only
+  ```py{'RMSE': {'1988 to 2019': 21276023.871285778,
+  'test: 1988-2017': 42858259.58251413,
+  'train:2018-2019': 18983987.382181145},
+ 'MSE': {'1988 to 2019': 452669191771522.3,
+  'test: 1988-2017': 1836830414442164.0,
+  'train:2018-2019': 360391776926812.9},
+ 'MAPE': {'1988 to 2019': 0.7616186481820958,
+  'test: 1988-2017': 0.2488251389034104,
+  'train:2018-2019': 0.7958048821340081}}```
+
+
+```py
+  {'description': 'Tuned Prophet Model, with CV, using non-indexed values, and filtered commodities for Homarus Americanus Commodities only',
+ 'params_options': {'changepoint_prior_scale': [0.001,
+   0.101,
+   0.201,
+   0.301,
+   0.401,
+   0.5],
+  'seasonality_prior_scale': [0.01, 1.01, 3.01, 5.0, 7.01, 10],
+  'seasonality_mode': ['additive', 'multiplicative'],
+  'yearly_seasonality': [True, False]}}
+```
+
+  ```py
+  {'description': 'Tuned Prophet Model, with CV, using non-indexed values, and filtered commodities for Homarus Americanus Commodities only',
+ 'train_data_source': 'us data: unindexed no log, americanus only',
+ 'train_start_year': 1988,
+ 'train_end_year': 2017,
+ 'test_data_source': 'us data: unindexed no log, americanus only',
+ 'test_start_year': 2018,
+ 'test_end_year': 2019,
+ 'model_params': {'changepoint_prior_scale': 0.101,
+  'seasonality_prior_scale': 10,
+  'seasonality_mode': 'multiplicative',
+  'yearly_seasonality': True,
+  'rmse': 26420810.245022044,
+  'mape': 0.17661234462794018},
+ 'model_fit_date': '2024-01-08 11:59',
+ '.fit()': '___',
+ 'cv_param_cutoffs': DatetimeIndex(['2018-01-01', '2019-01-01'], dtype='datetime64[ns]', freq=None),
+ 'cv_param_initial': '10593 days',
+ 'cv_param_period': '365 days',
+ 'cv_param_horizon': '365 days',
+ 'cv_param_parallel': 'processes',
+ 'model_prediction_date:': '2024-01-08 11:59',
+ 'Prediction range(num periods):': 24,
+ 'Prediction frequency:': 'MS',
+ 'results': {'Prophet-Best': {'mse_train': 1414474389723225.5,
+   'mse_test': 1180476448045193.2,
+   'rmse_train': 37609498.66354543,
+   'rmse_test': 34358062.34416012,
+   'mape_train': 0.36587562334281865,
+   'mape_test': 0.17214529508279472}}}
+
+ ```
+
+ Conclusion:
+ * no significant benefit to filtering out homarus americanus. Likely because numbers of other commodities are already so low, considered insignificant to the model
+
+Next test:
+Apply log transformation to see if results improve using LOG
+
+{'RMSE': {'1988 to 2019': 19456742.69634471,
+  'test: 1988-2017': 41226684.88866486,
+  'train:2018-2019': 17043860.741664812},
+ 'MSE': {'1988 to 2019': 378564836351763.3,
+  'test: 1988-2017': 1699639546909267.2,
+  'train:2018-2019': 290493188981263.0},
+ 'MAPE': {'1988 to 2019': 0.20208558343125485,
+  'test: 1988-2017': 0.20206824094191264,
+  'train:2018-2019': 0.202086739597211}}
+
+  MAPE train goes down significantly, but mape test increases. Model got worse at predicting when Log applied. 
+
+```py
+{'description': 'Tuned Prophet Model, with CV, using non-indexed values, non-log values, and filtered commodities for Homarus Americanus Commodities only',
+ 'train_data_source': 'us data: unindexed no log, americanus only',
+ 'train_start_year': 1988,
+ 'train_end_year': 2017,
+ 'test_data_source': 'us data: unindexed no log, americanus only',
+ 'test_start_year': 2018,
+ 'test_end_year': 2019,
+ 'model_params': {'changepoint_prior_scale': 0.101,
+  'seasonality_prior_scale': 1.01,
+  'seasonality_mode': 'multiplicative',
+  'yearly_seasonality': True,
+  'rmse': 26305292.84164052,
+  'mape': 0.17541140467660435},
+ 'model_fit_date': '2024-01-08 12:23',
+ '.fit()': 'us_data',
+ 'cv_param_cutoffs': DatetimeIndex(['2018-01-01', '2019-01-01'], dtype='datetime64[ns]', freq=None),
+ 'cv_param_initial': '10593 days',
+ 'cv_param_period': '365 days',
+ 'cv_param_horizon': '365 days',
+ 'cv_param_parallel': 'processes',
+ 'model_prediction_date:': '2024-01-08 12:23',
+ 'Prediction range(num periods):': 24,
+ 'Prediction frequency:': 'MS',
+ 'results': {'Prophet-Best': {'mse_train': 1415017803445176.2,
+   'mse_test': 1182226568181031.2,
+   'rmse_train': 37616722.39104806,
+   'rmse_test': 34383521.75361086,
+   'mape_train': 0.3654134014712997,
+   'mape_test': 0.17204976308666972}}}```
+   
