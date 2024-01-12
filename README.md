@@ -9,18 +9,24 @@ Lighthouse Labs Data Science Program</br>
 
 # Overview
 
-The purpose of this project is to uncover insights into lobster exports over the past 40 years, and develop a time series model to forecast future lobster export demand using the Facebook Prophet model. 
+The purpose of this project is to uncover insights into canadian lobster exports over the past 40 years, and develop a time series model to forecast future lobster export demand using the Facebook Prophet model. 
 
 ## Business Problem
+* Can the monthly value of lobster that will be exported to the US for the next 3 years (2023-2025) be predicted?
 * Some questions this project aims to answer?*
 How has lobster exports evolved over time? 
 
-Can country GDP predict value of lobster exports? 
 
 
 ## Assumptions:
+* Data set covers 1988 to 2022. Will assume that 2023 is future since no data available. 
 * Dollar will be adjusted to today's (2022) dollars
-* TODO Only included export data for Homarus Americanus species of lobster(excludes Norway lobster and rock lobster)
+* Data for Homarus Americanus species of lobster(excludes Norway lobster and Rock lobster). Relevant HS Codes are: 
+    * HS 030612 - Lobsters, nes, frozen, in shell, including boiled in shell
+    * HS 030622 - Lobsters, (Homarus spp), not frozen, in shell, including boiled in shell (Retired 2016)
+    * HS 030632 - Lobsters, live, fresh or chilled
+    * HS 030692 - Lobsters, nes, dried/salted/in brine/smoked/cooked, w/n in shell 
+    * HS 160530 - Lobster, prepared or preserved
 
 ## Process
 
