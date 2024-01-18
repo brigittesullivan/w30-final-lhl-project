@@ -20,7 +20,7 @@ The purpose of this project is to uncover insights into canadian lobster exports
 
 More canadian lobster is exported to the US than any other country combined. In 2022, US exports represented 59% of the total value of lobster exports alone. 
 
-[Chart](https://github.com/brigittesullivan/w30-final-lhl-project/blob/main/images/Percent_Export_US.png)
+![Chart](https://github.com/brigittesullivan/w30-final-lhl-project/blob/main/images/Percent_Export_US.png)
 
 As other countries demand (appetite) for canadian lobster grows in the last decade, we see a slight decline in the percent of total value exported to the US.
 
@@ -28,7 +28,7 @@ Having forecasted export demand is important because:
 * Facilitate trade negotiations, (offering volume incentives)
 * Inform and improve the extensive lobster fishing regulations 
     * Licenses cost over ~ $1M 
-    * Fishing seasons restricted geographically [Helpful Map](https://www.fisherkingseafoods.com/wp-content/uploads/2021/01/Lobster-Tear-Sheet-map.pdf)
+    * Fishing seasons restricted geographically ![Helpful Map](https://www.fisherkingseafoods.com/wp-content/uploads/2021/01/Lobster-Tear-Sheet-map.pdf)
     * Strict harvesting quotas, regulations, fines
 * Support conservation efforts
 
@@ -72,18 +72,20 @@ Model
 * Best model received a Mean Absolute Percentage Error of 10.5% on unseen data (Evaluation 2018-2019)
 * To see the details of the modelling process, the params used, and each of their metrics, see the [Modelling_Process.md](https://github.com/brigittesullivan/w30-final-lhl-project/blob/main/Modelling_Process.md) file in this repo. 
 * 
-#### Predictions
+### Predictions
 Used same parameters from best tuned model, however provided model with data from the complete date range 1988 - 2022. Model made predictions for 36 months (2023 - 2025). 
 
-Annual view:
+#### Annual view:
 
-[Annual Predictions](https://github.com/brigittesullivan/w30-final-lhl-project/blob/main/images/Annual_Forecast_.png)
+![Annual Predictions](https://github.com/brigittesullivan/w30-final-lhl-project/blob/main/images/Annual_Forecast_.png)
 
-* Chart shows the ggregated monthly predictions annually. 
+* Chart shows the aggregated monthly predictions annually. 
 * Model is generally following the same trend as actuals, indicates the model is not overfitting.
 
+#### Monthly: 
 
-Monthly: 
+![MonthlyPredictions](https://github.com/brigittesullivan/w30-final-lhl-project/blob/main/images/Monthly_forecast_.png)
+
 * Model follows same seasonality as actuals, with peaks in June and December/January. With lowest exports in April. 
 
 Massachussetts is the #1 destiation state in the US. 
