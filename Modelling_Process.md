@@ -1,7 +1,7 @@
 # Modelling Process
 
 Purpose:
-The purpose of this document is to log all details of each model run during the modelling phase of this project. Including  exploration and refinement of models to improve results to be able to methodically replicate any model attempted. 
+The purpose of this document is to log all details of each model run during the modelling phase of this project. Including  exploration and refinement of models to improve results to be able to replicate any model attempted. 
  
 # Baselines:
 ## Prophet - Data Log

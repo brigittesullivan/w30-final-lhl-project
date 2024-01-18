@@ -46,18 +46,18 @@ Having forecasted export demand is important because:
 
 ## Process
 
-High-level:
-
 ### Extract Data:
-
 1. Export Data: 
 * Export data was collected using Canadian International Merchandise Trade Web Application from Statistics Canada.
-* extracted in late november 
-https://www150.statcan.gc.ca/n1/pub/71-607-x/2021004/exp-eng.htm
 2. CPI Data - to adjust values for inflation
+  
+### Cleaning and EDA
+* Data was already fairly clean.
+* Adjusted values exported to canadian dollars, renamed some features
+* Explored distributions
 
 ### Modelling
-Model
+
 #### Develop Baseline Models:
 * Baseline models using auto-arima and Prophet, and an ensemble method were all developped
 * The baseline prophet model returned the best results, so chose to focus on tuning this model.
@@ -88,7 +88,6 @@ Used same parameters from best tuned model, however provided model with data fro
 
 * Model follows same seasonality as actuals, with peaks in June and December/January. With lowest exports in April. 
 
-Massachussetts is the #1 destiation state in the US. 
 
 # Conclusion
 
@@ -104,8 +103,9 @@ Massachussetts is the #1 destiation state in the US.
     * Destination country GDP for period
     * Province of origin
 * Expand models to other countries. The US remains Canada's #1 Customer for Canadian Lobster, China and South Korea are importing more and more each year.
+  ![Annual Exports by Country](https://github.com/brigittesullivan/w30-final-lhl-project/blob/main/images/Annual_exports_country.png)
 * Explore the relationship between current GDP and next years export values.
 
 # References
 
-* I want to acknowledge the dispute between indegenous and non-idigenous fishers on Mik'maw lands these past years. [Article: The Attacks On Mi’kmaq Lobster Fishers In Nova Scotia, Explained](https://www.refinery29.com/en-ca/2020/10/10111352/nova-scotia-lobster-dispute-explained#:~:text=For%20five%20weeks%20now%2C%20Mi,outside%20the%20province's%20commercial%20season.)
+* I want to acknowledge the dispute between indegenous and non-indigenous fishers on Mik'maw lands these past years. [Article: The Attacks On Mi’kmaq Lobster Fishers In Nova Scotia, Explained](https://www.refinery29.com/en-ca/2020/10/10111352/nova-scotia-lobster-dispute-explained#:~:text=For%20five%20weeks%20now%2C%20Mi,outside%20the%20province's%20commercial%20season.)
