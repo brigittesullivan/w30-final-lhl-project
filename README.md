@@ -77,8 +77,11 @@ Used same parameters from best tuned model, however provided model with data fro
 
 Annual view:
 
+[Annual Predictions](https://github.com/brigittesullivan/w30-final-lhl-project/blob/main/images/Annual_Forecast_.png)
+
+* Chart shows the ggregated monthly predictions annually. 
 * Model is generally following the same trend as actuals, indicates the model is not overfitting.
-* 
+
 
 Monthly: 
 * Model follows same seasonality as actuals, with peaks in June and December/January. With lowest exports in April. 
